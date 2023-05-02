@@ -1,0 +1,37 @@
+<proyecto>
+    <video>
+        <autor></autor>
+        <fecha></fecha>
+        <duracion></duracion>
+    </video>
+    <galeria>
+        <imagen>
+            <usuario></usuario>
+            <ruta></ruta>
+            <titulo></titulo>
+            <descripcion></descripcion>
+            <fecha_alta></fecha_alta>
+            <fecha_baja></fecha_baja>
+            <registro_estado></registro_estado>
+            <tamaño></tamaño>
+        </imagen>
+        <imagen>
+            <usuario></usuario>
+            <ruta></ruta>
+            <titulo></titulo>
+            <descripcion></descripcion>
+            <fecha_alta></fecha_alta>
+            <fecha_baja></fecha_baja>
+            <registro_estado></registro_estado>
+            <tamaño></tamaño>
+        </imagen>
+    </galeria>
+    <agenda>
+        <fecha_actual></fecha_actual>
+        <evento></evento>
+        <lugar_evento></lugar_evento>
+        <precio_evento></precio_evento><!--Va a ser ? (0-1), ya que los eventos pueden tener o no precio-->
+        <inicio_evento></inicio_evento>
+        <fin_evento></fin_evento>
+    </agenda>
+</proyecto>

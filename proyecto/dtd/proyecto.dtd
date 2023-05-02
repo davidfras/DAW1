@@ -1,0 +1,23 @@
+<!DOCTYPE proyecto[
+    <!ELEMENT proyecto(video, galeria, agenda)>
+    <!ELEMENT video(autor, fecha, duracion)>
+    <!ELEMENT autor (#PCDATA)> 
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+    <!ELEMENT galeria(imagen+)>
+    <!ELEMENT imagen(usuario, ruta, titulo, descipcion, fecha_alta, fecha_baja, 
+    registro_estado, tamaño)>
+    <!ELEMENT usuario (#PCDATA)>
+    <!ELEMENT ruta (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT fecha_alta (#PCDATA)>
+    <!ELEMENT fecha_baja (#PCDATA)>
+    <!ELEMENT registro_estado (#PCDATA)>
+    <!ELEMENT tamaño (#PCDATA)>
+    <!ELEMENT agenda(fecha_actual, evento, precio_evento?, inicio_evento, fin_evento)
+    <!ELEMENT fecha_actual (#PCDATA)>
+    <!ELEMENT evento (#PCDATA)>
+    <!ELEMENT precio_evento (#PCDATA)>
+    <!ELEMENT inicio_evento (#PCDATA)>
+    <!ELEMENT fin_evento (#PCDATA)>
+]>
