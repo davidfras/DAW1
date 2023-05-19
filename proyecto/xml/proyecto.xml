@@ -1,0 +1,34 @@
+<proyecto>
+    <galeria>
+        <imagen>
+            <usuario>Carlos Ramirez</usuario>
+            <ruta></ruta>
+            <titulo>Costa das Catedrais</titulo>
+            <descripcion>Unha foto da amplitude da praia das Catedrais</descripcion>
+            <fecha_alta>24/01/2023</fecha_alta>
+            <fecha_baja></fecha_baja>
+            <registro_estado>Activo</registro_estado>
+            <tamaño>250x200px</tamaño>
+        </imagen>
+        <imagen>
+            <usuario>Jose Cabanas</usuario>
+            <ruta></ruta>
+            <titulo>Fuciño do Porco</titulo>
+            <descripcion>Unha imaxe do FUciño do Porco</descripcion>
+            <fecha_alta>02/02/2023</fecha_alta>
+            <fecha_baja></fecha_baja>
+            <registro_estado>Activo</registro_estado>
+            <tamaño>250x200px</tamaño>
+        </imagen>
+        <imagen>
+            <usuario>Lara Lopez</usuario>
+            <ruta></ruta>
+            <titulo>Catedrais do Mar</titulo>
+            <descripcion>Imaxes das increibles formacións da Praia das Catedrais</descripcion>
+            <fecha_alta>08/05/2023</fecha_alta>
+            <fecha_baja></fecha_baja>
+            <registro_estado>Activo</registro_estado>
+            <tamaño>250x200px</tamaño>
+        </imagen>
+    </galeria>
+</proyecto>

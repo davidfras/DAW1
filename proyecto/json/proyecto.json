@@ -1,0 +1,42 @@
+{
+    "proyecto": {
+      "video": {
+        "autor": "",
+        "fecha": "",
+        "duracion": ""
+      },
+      "galeria": {
+        "imagen": [
+          {
+            "usuario": "",
+            "ruta": "",
+            "titulo": "",
+            "descripcion": "",
+            "fecha_alta": "",
+            "fecha_baja": "",
+            "registro_estado": "",
+            "tamaño": ""
+          },
+          {
+            "usuario": "",
+            "ruta": "",
+            "titulo": "",
+            "descripcion": "",
+            "fecha_alta": "",
+            "fecha_baja": "",
+            "registro_estado": "",
+            "tamaño": ""
+          }
+        ]
+      },
+      "agenda": {
+        "fecha_actual": "",
+        "evento": "",
+        "lugar_evento": "",
+        "precio_evento": "",
+        "inicio_evento": "",
+        "fin_evento": ""
+      }
+    }
+  }
+  

@@ -1,0 +1,50 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="proyecto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="video">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="autor" type="xs:string"/>
+              <xs:element name="fecha" type="xs:date"/>
+              <xs:element name="duracion" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="galeria">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="imagen" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="usuario" type="xs:string"/>
+                    <xs:element name="ruta" type="xs:string"/>
+                    <xs:element name="titulo" type="xs:string"/>
+                    <xs:element name="descripcion" type="xs:string"/>
+                    <xs:element name="fecha_alta" type="xs:date"/>
+                    <xs:element name="fecha_baja" type="xs:date"/>
+                    <xs:element name="registro_estado" type="xs:string"/>
+                    <xs:element name="tamaño" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="agenda">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fecha_actual" type="xs:date"/>
+              <xs:element name="evento" type="xs:string"/>
+              <xs:element name="precio_evento" type="xs:double" minOccurs="0"/>
+              <xs:element name="inicio_evento" type="xs:date"/>
+              <xs:element name="fin_evento" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

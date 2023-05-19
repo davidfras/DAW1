@@ -1,0 +1,61 @@
+body{
+  background-color: #60FF37;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%2360FF37' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%2300e18a' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%2300bdba' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%230095c5' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23006bab' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%231F4377' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+@font-face {
+  font-family: letra1;
+  src: url(../css/fonts/adam/Adam-Bold.ttf);
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+}
+form{
+  font-family: letra1;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  opacity: 80%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 10%;
+  row-gap: 1px;
+}
+h4{
+  grid-column: 1/4;
+  grid-row: 1/2;
+  width: auto;
+  justify-self: center;
+}
+#email{
+  grid-column: 1/4;
+  grid-row: 2/3;
+  width: 80%;
+  height: 40px;
+  justify-self: center;
+}
+#password{
+  grid-column: 1/4;
+  grid-row: 3/4;
+  height: 40px;
+  width: 80%;
+  justify-self: center;
+}
+#boton{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  width: 80%;
+  font-size: smaller;
+  justify-self: center;
+}
+p{
+  grid-column: 1/4;
+  grid-row: 5/6;
+  width: 80%;
+  justify-self: center;
+}
+
