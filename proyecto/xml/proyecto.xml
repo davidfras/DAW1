@@ -2,7 +2,7 @@
     <galeria>
         <imagen>
             <usuario>Carlos Ramirez</usuario>
-            <ruta></ruta>
+            <ruta>../imagenes/as_catedrais_1_1.jpg</ruta>
             <titulo>Costa das Catedrais</titulo>
             <descripcion>Unha foto da amplitude da praia das Catedrais</descripcion>
             <fecha_alta>24/01/2023</fecha_alta>
@@ -12,7 +12,7 @@
         </imagen>
         <imagen>
             <usuario>Jose Cabanas</usuario>
-            <ruta></ruta>
+            <ruta>../imagenes/fuciño.jpg</ruta>
             <titulo>Fuciño do Porco</titulo>
             <descripcion>Unha imaxe do FUciño do Porco</descripcion>
             <fecha_alta>02/02/2023</fecha_alta>
@@ -22,7 +22,7 @@
         </imagen>
         <imagen>
             <usuario>Lara Lopez</usuario>
-            <ruta></ruta>
+            <ruta>../imagenes/playa-catedrais-ribadeo.jpg</ruta>
             <titulo>Catedrais do Mar</titulo>
             <descripcion>Imaxes das increibles formacións da Praia das Catedrais</descripcion>
             <fecha_alta>08/05/2023</fecha_alta>
